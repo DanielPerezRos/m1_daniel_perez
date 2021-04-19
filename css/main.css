@@ -1,0 +1,82 @@
+.cabecera{
+    background-image: url("../img/cabecera-portatiles.jpg");
+    width: 100%;
+    height: 250px;
+}
+
+.logo-laptopshop{
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.img-laptop{
+    width: 250px;
+}
+
+
+
+/* Estilo para botones: */
+
+.boton{
+    font-size:14px;
+    color: white;
+    padding:5px;
+    border-radius: 10px;
+    line-height: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+.boton:hover{
+    opacity: 1;
+}
+.boton-ver{
+    background-color:#0b5ed7;
+    border-color: #0b5ed7;
+}
+.boton-editar{
+    background-color:#157347;
+    border-color: #157347;
+}
+.boton-borrar{
+    background-color:#bb2d3b;
+    border-color: #bb2d3b;
+}
+
+.boton-crear{
+    background-color:#e6b000;
+    border-color: #bb2d3b;
+    padding: 14px;
+    border-radius: 15px;
+    
+}
+
+.footer-social {
+    text-align: center;
+  }
+
+.footer-social a {
+    width: 40px;
+    display: inline-table;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .footer-social a:hover i {
+    color: #f8b600 !important;
+  }
+  
+  .footer-social i {
+    color: #cccccc;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
