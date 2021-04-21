@@ -53,6 +53,7 @@
     
 }
 
+/* Footer */
 .footer-social {
     text-align: center;
   }
@@ -79,4 +80,31 @@
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+  }
+
+  /* DPR Listas personalizadas */ 
+  .unordered-list-verde li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.5em !important;
+    list-style-type: none !important;
+  }
+  
+  .unordered-list-verde li:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #42b23c;
+    background: #fff;
+    top: 4px;
+    left: 0;
+    border-radius: 50%;
+  }
+
+  /* Precio antiguo */
+
+  .precio-antes{
+    text-decoration:line-through; 
+    color: red;
   }
