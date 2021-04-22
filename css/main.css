@@ -70,12 +70,12 @@
     transition: all 0.3s ease 0s;
   }
   
-  .footer-social a:hover i {
+  .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover {
     color: #f8b600 !important;
   }
   
-  .footer-social i {
-    color: #cccccc;
+  .fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube {
+    color: #cccccc !important;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
